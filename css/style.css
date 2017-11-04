@@ -18,7 +18,7 @@ li a:hover{
 #b_1{
     height: 80vh;
     width: 100%;
-    background-image: url("img/fundo-topo.jpg");
+    background-image: url("../img/fundo-topo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     display: table;
@@ -37,7 +37,7 @@ li a:hover{
     height: 600px;
     display: table;
     background-size: 130%;
-    background-image: url("img/fundo-corpo.jpg");
+    background-image: url("../img/fundo-corpo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0 auto;
