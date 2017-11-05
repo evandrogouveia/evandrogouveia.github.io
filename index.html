@@ -204,8 +204,9 @@
                          </ul>
                      </div>
                      <div class="rodape col-xs-6 text-left">
+                         <a name="mensagem-enviada"></a>
                          <h4>ENVIE-ME UM RECADO</h4><br>
-                         <form id="form" data-toggle="validator" role="form">
+                         <form id="form" method="post" action="contato.php">
                              <div class="form-group">		    
                                  <input id="textNome" class="form-control" placeholder="Seu Nome..." type="text">		 
                              </div>		  		  
@@ -213,11 +214,30 @@
                                  <input id="inputEmail" class="form-control" placeholder="Seu E-mail" type="email">
                              </div>	  		 
                              <div class="form-group">	
-                                 <textarea id="textArea" rows="3" cols="72" placeholder="Sua mensagem..."></textarea>
+                                 <textarea id="textArea" rows="4" cols="72" placeholder="Sua mensagem..."></textarea>
                                  
                              </div>	  		
-                             	<button type="submit" class="btn btn-primary">Enviar</button>	
+                             <button type="submit" name="enviar" class="btn btn-primary">Enviar</button>	
                          </form>
+                         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+                         <script type="text/javascript">
+                             jQuery(document).ready(function(){
+		                 jQuery('#form').submit(function(){
+		        	     var dados = jQuery( this ).serialize();
+
+			            jQuery.ajax({
+			                type: "POST",
+			           	url: "contato.php",
+				        data: dados,
+				        success: function( data )
+				       {
+					alert( data );
+				       }
+			           });
+			            return false;
+	                        });
+                            });
+                        </script>
                      </div>
                          <div class="col-xs-3">
                              <h4 id="siga">SIGA-ME</h4><br>
