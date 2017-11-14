@@ -1,199 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-@import url('https://fonts.googleapis.com/css?family=Raleway:700');
-body{
-    margin: 0;
-    padding: 0;
-}
-li a, .navbar-nav{
-    color: white;
-    list-style-type: none;
-    font-size: 15pt;
-    margin-top: 35px;  
-    
-}
-li a:hover{
-    color: #dddddd;
-    text-decoration: none;
-}
-#b_1{
-    height: 80vh;
-    width: 100%;
-    background-image: url("../../img/fundo-topo.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: table;
-    background-attachment: fixed;
-}
-#b_2{
-    width: 100%;
-    height: 100%;
-    display: table;
-    background-size: 100%;
-    background: #eee;
-    background-attachment: fixed;  
-}
-#b_3{
-    width: 100%;
-    height: 600px;
-    display: table;
-    background-size: 130%;
-    background-image: url("../../img/fundo-corpo.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0 auto;
-   
-}
-#b_4{
-    width: 100%;
-    height: 300px;
-    display: table;
-    background-size: 100%;
-    background: #eee;
-    background-attachment: fixed;
-    margin: 0 auto;
-   
-}
-#ttl_1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 50pt;
-    color: white;
-    text-align: center;
-    display: block;
-    vertical-align: middle;
-    position: relative;
-    top: 250px;
-}
-/*@media only screen and (min-width: 480px) and (max-width: 767px) {
-    #b_1{
-        height: 45vh;
-    }
-}*/
-#sbt_1{
-   font-family: 'Open Sans', sans-serif;
-   color: #D8CEF6;
-   text-align: center;
-   display: table-row;
-   vertical-align: middle; 
-}
-#sbt_2{
-    background: #eee;
-    font-family: Arial, sans-serif;
-    color: #380B61;
-    margin: 0 auto;
-    left: -5px;
-    z-index: 1;
-}
-.borda_2{
-  border-bottom: 3px solid #380B61;
-  color: transparent;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  top: -10px;
-  z-index: 0;
-}
-#sbt_3{
-    font-family: Arial, sans-serif;
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    z-index: 1;
-    top: 50px;
-}
-.borda_3{
-  border-bottom: 3px solid #fff;
-  color: transparent;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  z-index: 0;
-  top: 40px;
-}
-h3{
-    font-family: Arial, sans-serif;
-    color: black;
-    text-align: center;
-    display: block;
-    position: relative;
-    
-}
-#foto{
-    width: 20%;
-    margin-top: -150px;
-    box-shadow: none;
-    border: none;
-    padding: 8px;
-    background:#eee;
-}
-.tec{
-    margin: 30px;
-    -webkit-filter:grayscale(100%);
-}
-.tec:hover{
-    
-    -webkit-filter:grayscale(0%);
-    transition: 1s;
-}
-.rodape{
-    color: #380B61;
-}
-#inputEmail, #textNome, #textArea{
-    background: #380B61;
-    color: white;
-    border-color: #380B61;
-    
-}
-.btn, .rs{
-    background: #380B61;
-    border-color: #380B61;
-}
-.col-xs-4, .col-xs-3, .col-xs-6{
-   /*border: 1px solid black;*/
-}
-.btn:hover,.rs:hover{
-    background: #4B088A;
-    border-color: #4B088A;
-    cursor: pointer;
-}
-#siga{
-    position: relative;
-    left: 30px;
-}
-.fundo-centro{
-    background: #380B61;
-}
-.rs{
-    position: relative;
-    left: 25px;
-
-}
-.espaco{
-    padding: 9px;
-}
-
-/*----------JANELA MODAL--------------*/
-.window{
-    display:none;
-    width:300px;
-    height:300px;
-    position:absolute;
-    left:0;
-    margin-top:800px;
-    background:#FFF;
-    z-index:9900;
-    padding:10px;
-    border-radius:10px;
-}
-#mascara{
-    display:none;
-    position:absolute;
-    margin: 0 auto;
-    left:0;
-    top:0;
-    z-index:9000;
-    background-color:#000;
-}
-.fechar{display:block; text-align:right;}
-/*----------FIM DA JANELA MODAL--------------*/
-
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
+@import "https://fonts.googleapis.com/css?family=Raleway:700";
+html,body,span,p,form,img,a,ul,ol,li,table,tr,td,div{margin:0;padding:0;border:none;outline:none;list-style-type:none}
+html,body,.capa{height:100%}
+body{background:url(../..//public/img/fundo-topo.jpg)no-repeat;background-size:200em;background-attachment:fixed}
+.capa{display:table;height:82%;width:100%}
+.texto-capa{text-align:center;vertical-align:middle;display:table-cell}
+li a,.navbar-nav{color:#fff;list-style-type:none;font-size:15pt;margin-top:35px}
+p a{border:1px solid #fff;padding:10px 35px;font-size:12pt;transition:all .4s ease-out}
+p a:link,p a:visited{text-decoration:none;list-style-type:none;color:#fff}
+p a:hover{color:#380B61;background:#ddd;transition:all .4s ease-out}
+li a:hover{color:#ddd;text-decoration:none}
+#titulo-1{font-family:'Raleway',sans-serif;font-size:50pt;color:#fff;top:250px}
+#subtitulo-1{font-family:'Open Sans',sans-serif;color:#D8CEF6;text-align:center;position:relative;vertical-align:middle}
+#b_2{width:100%;height:100%;display:table;background:#eee}
+#foto{width:20em;margin-top:-150px;box-shadow:none;border:none;padding:8px;background:#eee!important}
+.borda_2{border-bottom:3px solid #380B61;color:transparent;position:relative;margin:0 auto;top:-10px}
+#subtitulo-2{background:#eee;font-family:Arial,sans-serif;color:#380B61;text-align:center;margin:0 auto}
+.borda_3{border-bottom:3px solid #fff;color:transparent;position:relative;margin:0 auto;text-align:center;z-index:0;top:40px}
+#subtitulo-3{font-family:Arial,sans-serif;position:relative;color:#fff;margin:0 auto;text-align:center;top:50px}
+.tec{margin:30px;display:inline-table;-webkit-filter:grayscale(100%)}
+.tec:hover{-webkit-filter:grayscale(0%);transition:1s}
+#b_4{width:100%;height:300px;display:table;background-size:100%;background:#eee;background-attachment:fixed;margin:0 auto}
+.rodape{color:#380B61}
+#inputEmail,#textNome,#textArea{background:#380B61;color:#fff;border-color:#380B61}
+#textArea{width:100%;height:100px}
+.btn,.rs{background:#380B61;border-color:#380B61}
+.btn:hover,.rs:hover{background:#4B088A;border-color:#4B088A;cursor:pointer}
+#siga{position:relative;left:30px}
+.fundo-centro{background:#380B61}
+.rs{position:relative;left:25px}
+.espaco{padding:9px}
+#copy{width:100%;background:#fff}
+.window{display:none;width:300px;height:300px;position:absolute;left:0;margin-top:850px;background:#FFF;z-index:9900;padding:10px;border-radius:10px}
+#mascara{display:none;position:absolute;margin:0 auto;left:0;top:0;z-index:9000;background-color:#000}
+.fechar{display:block;text-align:right}
+.back-to-top{width:90px;height:38px;display:block;background-image:url(../..//public/img/img-topo.png);position:fixed;bottom:30px;right:0;border-radius:15px 0 0 15px}
+.back-to-top:hover{cursor:pointer}
 
