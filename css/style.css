@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:700";
 html,body,span,p,form,img,a,ul,ol,li,table,tr,td,div{margin:0;padding:0;border:none;outline:none;list-style-type:none}
 html,body,.capa{height:100%}
-body{background:url(../..//public/img/fundo-topo.jpg)no-repeat;background-size:200em;background-attachment:fixed}
+body{background:url(../img/fundo-topo.jpg)no-repeat;background-size:200em;background-attachment:fixed}
 .capa{display:table;height:82%;width:100%}
 .texto-capa{text-align:center;vertical-align:middle;display:table-cell}
 li a,.navbar-nav{color:#fff;list-style-type:none;font-size:15pt;margin-top:35px}
@@ -34,6 +34,6 @@ li a:hover{color:#ddd;text-decoration:none}
 .window{display:none;width:300px;height:300px;position:absolute;left:0;margin-top:850px;background:#FFF;z-index:9900;padding:10px;border-radius:10px}
 #mascara{display:none;position:absolute;margin:0 auto;left:0;top:0;z-index:9000;background-color:#000}
 .fechar{display:block;text-align:right}
-.back-to-top{width:90px;height:38px;display:block;background-image:url(../..//public/img/img-topo.png);position:fixed;bottom:30px;right:0;border-radius:15px 0 0 15px}
+.back-to-top{width:90px;height:38px;display:block;background-image:url(../img/img-topo.png);position:fixed;bottom:30px;right:0;border-radius:15px 0 0 15px}
 .back-to-top:hover{cursor:pointer}
 
