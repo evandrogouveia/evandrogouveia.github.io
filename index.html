@@ -3,13 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Bem Vindo</title>
+        <title>Bem Vindo - Desenvolvedor Web | Programador PHP</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/mobile.min.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     </head>
     <body>
-       <nav class="navbar navbar-brand navbar-fixed-top" role="navigation"> 
+       <nav class="navbar navbar-brand navbar-fixed-top" role="navigation"><!-- NAVEGAÇÃO MENU --> 
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -20,52 +22,49 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar navbar-nav">
-                        <li><a href="">HOME</a></li>  
+                        <li><a href="">HOME</a></li>
                     </ul> 
+                    <p class="navbar-nav navbar-text navbar-right"><a href="cv.pdf" target="_blank">VISUALIZAR CV</a></p>
                 </div><!--/.nav-collapse -->     
-            </div>
-        </nav>
-        <div class="container-fluid">
-             <div id="b_1">    
-                 <h1 id="ttl_1">EVANDRO GOUVEIA</h1>
-                 <h3 id="sbt_1">Desenvolvedor Web | Programador PHP</h3>
+            </div><!--/CONTAINER-->
+        </nav><!-- /NAVEGAÇÃO MENU --> 
+            <div class="capa">    
+                <div class="texto-capa"
+                    <h1 id="titulo-1">EVANDRO GOUVEIA</h1><br>
+                    <h3 id="subtitulo-1">Desenvolvedor Web | Programador PHP</h3>
+                </div>
              </div>
-        </div>
-             <div id="b_2">   
-                 <img id="foto" class="img-circle img-thumbnail center-block" src="img/foto.jpg"/><br>
-                    <div class="container">
-                        <div class="row">
-                            <div  class="col-xs-5">
-                                <p class="borda_2">BORDA</p>
-                            </div>
-                            <div  class="col-xs-2">
-                                <h3 id="sbt_2" class="text-le">TECNOLOGIAS</h3>
-                            </div>
-                            <div  class="col-xs-5">
-                                <p class="borda_2">BORDA</p>
-                            </div>
-                        </div> 
-                    </div><br>
-                 <div class="container">
+        <div id="b_2">
+            <img id="foto" class="img-circle center-block" src="img/foto.jpg"/><br>
+            <div class="container">
+                    <div class="row">
+                        <div  class="col-xs-3 col-sm-4 col-md-5">
+                            <p class="borda_2">BORDA</p>
+                        </div>
+                        <div  class="col-xs-6 col-sm-4 col-md-2">
+                            <h3 id="subtitulo-2">HABILIDADES</h3>
+                        </div>
+                        <div  class="col-xs-3 col-sm-4 col-md-5">
+                            <p class="borda_2">BORDA</p>
+                        </div>
+                    </div> <!--/ROW-->
+                </div><br><!-- /CONTAINER -->
+                <div class="container">
                      <div class="text-center">
-                         <div class="fundo-centro col-xs-12">
-                             <a href="#janela1" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/php.jpg"/></a>
-                             <a href="#janela2" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/html5.jpg"/></a>
-                             <a href="#janela3" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/css3.jpg"/></a>
-                             <a href="#janela4" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/javascript.jpg"/></a>
+                         <div class="fundo-centro">
+                             <a href="#janela1" rel="modal"><img class="tec img-responsive img-circle " src="img/php.jpg"/></a>
+                             <a href="#janela2" rel="modal"><img class="tec img-responsive img-circle " src="img/html5.jpg"/></a>
+                             <a href="#janela3" rel="modal"><img class="tec img-responsive img-circle " src="img/css3.jpg"/></a>
+                             <a href="#janela4" rel="modal"><img class="tec img-responsive img-circle " src="img/javascript.jpg"/></a>
+                             <a href="#janela5" rel="modal"><img class="tec img-responsive img-circle " src="img/zend.jpg"/></a>
+                             <a href="#janela6" rel="modal"><img class="tec img-responsive img-circle " src="img/laravel.jpg"/></a>
+                             <a href="#janela7" rel="modal"><img class="tec img-responsive img-circle " src="img/jquery.jpg"/></a>
+                             <a href="#janela8" rel="modal"><img class="tec img-responsive img-circle " src="img/bootstrap.jpg"/></a>
+                             <a href="#janela9" rel="modal"><img class="tec img-responsive img-circle " src="img/mysql.jpg"/></a>
+                             <a href="#janela10" rel="modal"><img class="tec img-responsive img-circle " src="img/seo.jpg"/></a>
                          </div>
-                         <div class="fundo-centro col-xs-12">
-                             <a href="#janela5" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/zend.jpg"/></a>
-                             <a href="#janela6" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/laravel.jpg"/></a>
-                             <a href="#janela7" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/jquery.jpg"/></a>
-                             <a href="#janela8" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/bootstrap.jpg"/></a>
-                         </div>
-                         <div class="fundo-centro col-xs-12">
-                             <a href="#janela9" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/mysql.jpg"/></a>
-                             <a href="#janela10" rel="modal"><img class="tec img-responsive img-circle img-thumbnail" src="img/seo.jpg"/></a>
-                         </div>
-                        
-                     </div>
+                     </div><!-- /TEXT-CENTER -->
+                </div><br><br><!-- /CONTAINER -->
                      <div class="window" id="janela1">
                          <a href="#" class="fechar">X Fechar</a>
                          <h4 class="text-center">PHP</h4>
@@ -109,7 +108,7 @@
                      <div class="window" id="janela6">
                          <a href="#" class="fechar">X Fechar</a>
                          <h4 class="text-center">LARAVEL</h4>
-                         <p class="text-center">Laravel é um framework PHP livre e open-source.
+                         <p class="text-center">Laravel é um framework PHP livre e open-source. 
                              Algumas características proeminentes do Laravel são sua sintaxe simples e concisa, um sistema 
                              modular com gerenciador de dependencias dedicado, várias formas de acesso a banco de dados 
                              relacionais e vários utilitários indispensáveis no auxílio ao desenvolvimento e manutenção de sistemas.</p>
@@ -145,92 +144,108 @@
                              nos sites de busca gerando conversões, sejam elas, um lead, uma compra, um envio de formulário, agendamento de 
                              consulta e outros.</p>
                      </div>
-                     <!-- mascara para cobrir o site -->  
-                     <div id="mascara"></div>
-                 </div><br><br><br>
-             </div>
+                     <div id="mascara"></div><!-- mascara para cobrir o site --> 
+                 </div><!-- CONTAINER -->
+             </div><!-- /B_2 --> 
         <div id="b_3">
              <div class="container">
                         <div class="row">
-                            <div  class="col-xs-5">
+                                <div  class="col-xs-3 col-sm-4 col-md-5">
                                 <p class="borda_3">BORDA</p>
                             </div>
-                            <div  class="col-xs-2">
-                            <h3 id="sbt_3">PORTIFÓLIO</h3>
+                            <div  class="col-xs-6 col-sm-4 col-md-2">
+                            <h3 id="subtitulo-3">PORTIFÓLIO</h3>
                             </div>
-                             <div  class="col-xs-5">
+                             <div  class="col-xs-3 col-sm-4 col-md-5">
                                 <p class="borda_3">BORDA</p>
                             </div>
-                        </div> <br><br><br><br>
+                        </div><br><br><br><br>
                         <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                        </div><br><br><br>
+                        </div><br><br>
                         <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
-                            <div class="col-xs-3">
-                                <img class="img-site img-thumbnail" src="img/site-contrucao.jpg">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href=""><img class="img-site img-thumbnail" src="img/site-contrucao.jpg"></a>
                             </div>
                         </div>
-                    </div><br>
-        </div>
-        <div id="b_4"><br><br><br>    
-                 <div class="rodape container">
-                     <div class="col-xs-12">
-                     <div class="col-xs-3">
-                         <h4>CONTATO</h4><br>
-                         <ul class="nav nav-stacked">
-                             <li><img src="img/local.png"/>&nbsp;Rio de Janeiro</li><br>
-                             <li><img src="img/cel.png"/>&nbsp;(21)99274-6381</li><br>
-                             <li><img src="img/email.png"/>&nbsp;vando_gouveia@hotmail.com</li>
-                         </ul>
-                     </div>
-                     <div class="rodape col-xs-6 text-left">
-                         <h4>ENVIE-ME UM RECADO</h4><br>
-                         <form id="form" data-toggle="validator" role="form">
-                             <div class="form-group">		    
-                                 <input id="textNome" class="form-control" placeholder="Seu Nome..." type="text">		 
-                             </div>		  		  
-                             <div class="form-group">		   		   
-                                 <input id="inputEmail" class="form-control" placeholder="Seu E-mail" type="email">
-                             </div>	  		 
-                             <div class="form-group">	
-                                 <textarea id="textArea" rows="4" cols="72" placeholder="Sua mensagem..."></textarea>
-                             </div>	  		
-                             <button type="submit" class="btn btn-primary">Enviar</button>	
-                         </form>
-                     </div>
-                         <div class="col-xs-3">
-                             <h4 id="siga">SIGA-ME</h4><br>
-                         <div class="nav nav-pills">
-                             <a class="espaco" href="https://www.facebook.com/evandro.gouveia.bass" target="_blank"><img class="rs img-circle" src="img/fb.png"/></a>
-                             <a class="espaco" href="https://www.linkedin.com/in/evandro-da-cruz-gouveia-2b21178b/" target="_blank"><img class="rs img-circle" src="img/in.png"/></a>
-                             <a class="espaco" href="https://twitter.com/VandoGouveia" target="_blank"><img class="rs img-circle" src="img/tt.png"/></a>
-                             <a class="espaco" href="https://github.com/vando435" target="_blank"><img class="rs img-circle" src="img/gh.png"/></a>
-                         </div>
-                     </div>
-                     </div>      
-                 </div><br><br> 
-        </div>
-             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                    </div><!-- /CONTAINER --> 
+        </div><br><br><br><!-- /B_3 --> 
+        <div id="b_4"><br><br>   
+            <div class="rodape container">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <h4>CONTATO</h4><br>
+                    <ul class="nav nav-stacked">
+                        <li><img src="img/local.png"/>&nbsp;Rio de Janeiro</li><br>
+                        <li><img src="img/cel.png"/>&nbsp;(21)99274-6381</li><br>
+                        <li><img src="img/email.png"/>&nbsp;vando_gouveia@hotmail.com</li>
+                    </ul>
+                </div>
+                <div id="recado" class="col-xs-8 col-sm-4 col-md-6">
+                    <a name="mensagem-enviada"></a>
+                    <h4>ENVIE-ME UM RECADO</h4><br>
+                    <form id="form" method="post" action="contato.php">
+                        <div class="form-group">		    
+                            <input id="textNome" class="form-control" placeholder="Seu Nome..." type="text">		 
+                        </div>		  		  
+                        <div class="form-group">		   		   
+                            <input id="inputEmail" class="form-control" placeholder="Seu E-mail" type="email">
+                        </div>	  		 
+                        <div class="form-group">	
+                            <textarea id="textArea" placeholder=" Sua mensagem..."></textarea>
+                        </div>	  		
+                        <button type="submit" name="enviar" class="btn btn-primary">Enviar</button>	
+                    </form>
+                </div><!-- /RECADO --> 
+                <div id="redsoc" class="col-xs-12 col-sm-4 col-md-3">
+                    <h4 id="siga">SIGA-ME</h4><br>
+                    <div class="nav nav-pills">
+                        <a class="espaco" href="https://www.facebook.com/evandro.gouveia.bass" target="_blank"><img class="rs img-circle" src="img/fb.png"/></a>
+                        <a class="espaco" href="https://www.linkedin.com/in/evandro-da-cruz-gouveia-2b21178b/" target="_blank"><img class="rs img-circle" src="img/in.png"/></a>
+                        <a class="espaco" href="https://twitter.com/VandoGouveia" target="_blank"><img class="rs img-circle" src="img/tt.png"/></a>
+                        <a class="espaco" href="https://github.com/vando435" target="_blank"><img class="rs img-circle" src="img/gh.png"/></a>
+                    </div>
+                </div><!-- /REDSOC -->
+            </div><br><br> <!-- /RODAPÉ CONTAINER --> 
+            <p class="rodape text-center" aria-hidden="true">Copyright &copy; 2017 | Por Evandro Gouveia</p>
+            <span class="back-to-top"></span>
+              <script>
+            $(document).ready(function(){
+               $('.back-to-top').hide();
+               $(window).scroll(function(){
+                   if($(this).scrollTop() > 150){
+                       $('.back-to-top').fadeIn();
+                   }else{
+                        $('.back-to-top').fadeOut();
+                   }
+               });
+               $('.back-to-top').click(function(){
+                  $('html, body').animate({
+                      scrollTop:0
+                  }, 800); 
+               });
+            });
+        </script>
+        </div><!-- /B_4 --> 
              <script src="js/bootstrap.min.js"></script>
              <script src="js/carousel.js"></script>
              <script src="js/modal.js"></script>         
