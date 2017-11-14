@@ -34,6 +34,6 @@ li a:hover{color:#ddd;text-decoration:none}
 .window{display:none;width:300px;height:300px;position:absolute;left:0;margin-top:850px;background:#FFF;z-index:9900;padding:10px;border-radius:10px}
 #mascara{display:none;position:absolute;margin:0 auto;left:0;top:0;z-index:9000;background-color:#000}
 .fechar{display:block;text-align:right}
-.back-to-top{width:90px;height:38px;display:block;background:url(../img/img-topo.png);position:fixed;bottom:30px;right:0;border-radius:15px 0 0 15px}
+.back-to-top{width:90px;height:38px;display:block;background:url(../img/img-topo.jpg);position:fixed;bottom:30px;right:0;border-radius:15px 0 0 15px}
 .back-to-top:hover{cursor:pointer}
 
