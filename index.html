@@ -181,19 +181,26 @@
               </div>
               <div id="recado" class="col-xs-8 col-sm-4 col-md-6">
               <h4>ENVIE-ME UM RECADO</h4><br>
-              <form id="form" method="post" action="contato.php">
+              <form id="form" method="get" action="mailto:evandrogouveia67@gmail.com">
                 <div class="form-group">		    
-                   <input id="textNome" class="form-control" placeholder="Seu Nome..." type="text">		 
+                   <input id="textNome" name="nome" class="form-control" placeholder="Seu Nome..." type="text">		 
                 </div>		  		  
                 <div class="form-group">		   		   
-                   <input id="inputEmail" class="form-control" placeholder="Seu E-mail" type="email">
+                   <input id="inputEmail" name="email" class="form-control" placeholder="Seu E-mail" type="email">
                 </div>	  		 
                 <div class="form-group">	
-                   <textarea id="textArea" placeholder=" Sua mensagem..."></textarea>
+                   <textarea id="textArea" name="mensagem" placeholder=" Sua mensagem..."></textarea>
                 </div>	  		
                 <button type="submit" name="enviar" class="btn btn-primary">Enviar</button>	
               </form>
               </div><!-- /RECADO --> 
+               $('#form').on('submit', function () {
+                 var nome = $(this).find('input[name=nome]'), nome = nome.val();
+                 var email = $(this).find('input[name=email]'), email = email.val();
+                 var mensagem = $(this).find('input[name=mensagem]'), mensagem = mensagem.val();
+                 var texto = 'Olá Evandro, \nMeu nome é '+ nome +' e meu email é '+ email;
+                   $(this).find('input[name=Body]').attr('value', texto);
+               });
               <div id="redsoc" class="col-xs-12 col-sm-4 col-md-3">
               <h4 id="siga">SIGA-ME</h4><br>
               <div class="nav nav-pills">
