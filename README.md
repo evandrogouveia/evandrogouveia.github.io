@@ -1,2 +1,3 @@
-# vando435.github.io
+# evandrogouveia.github.io
 Portifólio pessoal
+Desenvolvido por Evandro Gouveia
