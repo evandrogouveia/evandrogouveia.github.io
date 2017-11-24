@@ -1,3 +1,3 @@
 # evandrogouveia.github.io
 Portifólio pessoal
-Desenvolvido por Evandro Gouveia
+desenvolvido por Evandro Gouveia
